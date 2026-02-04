@@ -1,0 +1,15 @@
+#header img {
+  width: 80px;
+}
+
+#header a {
+  color: #3d3b3b;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+#header a:is(:hover, :focus) {
+  color: #0282f9;
+}
