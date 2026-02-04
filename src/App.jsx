@@ -3,6 +3,7 @@ import "./css/index.css";
 
 import Header from "./components/Header";
 import Main from "./components/Main";
+import Merch from "./components/Merch";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
     <>
       <Header />
       <Main />
+      <Merch />
       <Footer />
     </>
   );
