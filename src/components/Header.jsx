@@ -3,20 +3,22 @@ import "../css/header.css";
 
 export default function Header() {
   return (
-    <header id="header" className="container d-flex justify-content-between">
-      <img className="py-3" src={LogoDc} alt="Logo"></img>
-      <nav className="d-flex align-items-center">
-        <a href="#">Characters</a>
-        <a href="#">Comics</a>
-        <a href="#">Movies</a>
-        <a href="#">TV</a>
-        <a href="#">Games</a>
-        <a href="#">Collectables</a>
-        <a href="#">Videos</a>
-        <a href="#">Fans</a>
-        <a href="#">News</a>
-        <a href="#">Shop</a>
-      </nav>
+    <header id="header">
+      <div className="container d-flex justify-content-between">
+        <img className="py-3" src={LogoDc} alt="Logo"></img>
+        <nav className="d-flex align-items-center">
+          <a href="#">CHARACTERS</a>
+          <a href="#">COMICS</a>
+          <a href="#">MOVIES</a>
+          <a href="#">TV</a>
+          <a href="#">GAMES</a>
+          <a href="#">COLLECTABLES</a>
+          <a href="#">VIDEOS</a>
+          <a href="#">FANS</a>
+          <a href="#">NEWS</a>
+          <a href="#">SHOP</a>
+        </nav>
+      </div>
     </header>
   );
 }

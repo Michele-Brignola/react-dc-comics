@@ -1,0 +1,9 @@
+#main {
+  background-color: #1C1C1C;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+#main .container {
+  min-height: 15vh;
+}

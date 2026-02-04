@@ -1,9 +1,11 @@
-import "../css/index.css";
+import "../css/main.css";
 
 export default function Main() {
   return (
     <main id="main">
-      <h1>Sono il Main</h1>
+      <div className="container d-flex align-items-center">
+        <h1>Content goes here</h1>
+      </div>
     </main>
   );
 }
