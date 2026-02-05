@@ -1,11 +1,12 @@
-import LogoDc from "../assets/img/dc-logo.png";
+import Logo from "./Logo";
+
 import "../css/header.css";
 
 export default function Header() {
   return (
     <header id="header">
       <div className="container d-flex justify-content-between">
-        <img className="py-3" src={LogoDc} alt="Logo"></img>
+        <Logo />
         <nav className="d-flex align-items-center">
           <a href="#">CHARACTERS</a>
           <a href="#">COMICS</a>

@@ -1,10 +1,10 @@
 import "../css/merch.css";
 
 import DigitalComicsLogo from "../assets/img/buy-comics-digital-comics.png";
-import MerchLogo from "../assets/img/buy-comics-merchandise.png"
-import SubscriptionhLogo from "../assets/img/buy-comics-subscriptions.png"
-import LocatorLogo from "../assets/img/buy-comics-shop-locator.png"
-import VisaLogo from "../assets/img/buy-dc-power-visa.svg"
+import MerchLogo from "../assets/img/buy-comics-merchandise.png";
+import SubscriptionhLogo from "../assets/img/buy-comics-subscriptions.png";
+import LocatorLogo from "../assets/img/buy-comics-shop-locator.png";
+import VisaLogo from "../assets/img/buy-dc-power-visa.svg";
 
 export default function Merch() {
   return (
