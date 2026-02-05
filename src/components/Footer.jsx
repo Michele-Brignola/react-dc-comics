@@ -19,10 +19,6 @@ export default function Footer() {
                 <li>
                   <a href="#">Characters</a>
                 </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
               </ul>
             </div>
           </div>
