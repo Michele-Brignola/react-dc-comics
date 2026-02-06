@@ -1,20 +1,17 @@
 import "../css/main.css";
 
-import ComicsData from "../data/comics";
+import Card from "./Card";
 
-export default function Main() {
+export default function Main({comicsData}) {
   return (
     <main id="main">
       <div id="banner" />
       <div className="container">
         <div className="row row-cols-6 g-3">
-          {ComicsData.map((data) => (
-            <div key={data.id} className="col">
-              <div className="h-100">
-                <img src={data.thumb} alt={data.title} />
-                <p>{data.title}</p>
-              </div>
-            </div>
+          {comicsData.map((data) => (
+            <Card key={data.id} src={data.thumb}>
+              {data.title}
+            </Card>
           ))}
         </div>
       </div>
