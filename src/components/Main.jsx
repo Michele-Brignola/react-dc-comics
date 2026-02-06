@@ -2,10 +2,10 @@ import "../css/main.css";
 
 import Card from "./Card";
 
-export default function Main({comicsData}) {
+export default function Main({ comicsData }) {
   return (
     <main id="main">
-      <div id="banner" />
+      <div id="banner"></div>
       <div className="container">
         <div className="row row-cols-6 g-3">
           {comicsData.map((data) => (

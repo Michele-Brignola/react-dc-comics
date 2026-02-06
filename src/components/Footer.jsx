@@ -1,5 +1,7 @@
 import "../css/footer.css";
 
+import LinkMenu from "./LinkMenu";
+
 import DCBigLogo from "../assets/img/dc-logo-bg.png";
 import FacebookLogo from "../assets/img/footer-facebook.png";
 import TwitterLogo from "../assets/img/footer-twitter.png";
@@ -7,20 +9,17 @@ import YoutubeLogo from "../assets/img/footer-youtube.png";
 import PinterestLogo from "../assets/img/footer-pinterest.png";
 import MapLogo from "../assets/img/footer-periscope.png";
 
-export default function Footer() {
+export default function Footer({ linkMenuData }) {
   return (
     <footer id="footer">
       <section id="links">
-        <div className="container d-flex justify-content-between align-items-center">
-          <div>
-            <div>
-              <h1>DC COMICS</h1>
-              <ul>
-                <li>
-                  <a href="#">Characters</a>
-                </li>
-              </ul>
-            </div>
+        <div className="container d-flex justify-content-between align-items-start">
+          <div className="row">
+            {linkMenuData.map(({ id, titolo, items }) => (
+              <div key={id} className="col">
+                <LinkMenu titolo={titolo} items={items} />
+              </div>
+            ))}
           </div>
           <img src={DCBigLogo} alt="" />
         </div>

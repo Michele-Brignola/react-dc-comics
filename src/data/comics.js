@@ -59,7 +59,7 @@ const comics = [
     id: 5,
     title: "Batman #56",
     description: "The Dark Knight's looking to drop both the hammer and sickle on the KGBeast. The Russian super-assassin has gone too far, and Batman will stop at nothing to hunt him down. But is the Dark Knight willing to step into the darkness himself to find justice?",
-    thumb: "https://imgs.search.brave.com/3vP5d3cOVOuC0f6Uhm7CkV_qFk5hGj5rE4jK5I6n7dI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4y/LnBlbmd1aW4uY29t/LmF1L2NvdmVycy9v/cmlnaW5hbC83OTYx/OTQzMTM5OTk4Lmpw/Zw",
+    thumb: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcomicvine.gamespot.com%2Fa%2Fuploads%2Fscale_large%2F11%2F113060%2F2531338-batman_nr__56___seite_1.jpg&f=1&nofb=1&ipt=85c4c33dfaaa50f5f3bb7232a2b2f06e8f9cf228166caab05073fdbb6d7f4867",
     price: "$3.99",
     series: "Batman",
     sale_date: "2018-10-03",
